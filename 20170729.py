@@ -48,4 +48,4 @@ def hanoi(n, _from, _by, _to):
         print("from "+ _from + " to " + _to)
         hanoi(n-1, _by, _from, _to)
 
-hanoi(3, 'a', 'b', 'c')
+hanoi(4, 'a', 'b', 'c')
